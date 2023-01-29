@@ -10,17 +10,26 @@ const Nav: React.FC = () => {
       >
         SushiSwap SUSHI-ETH
       </StyledLink> */}
-      <StyledLink target="_blank" href="#">
-        Discord
+      <StyledLink
+        target="_blank"
+        href="https://app.uniswap.org/#/add/v2/0x2899a03ffDab5C90BADc5920b4f53B0884EB13cC/ETH"
+      >
+        DAI-ETH LP Uniswap-V2
       </StyledLink>
-      <StyledLink target="_blank" href="#">
-        Github
+      <StyledLink target="_blank" href="https://v2-app.compound.finance/#">
+        Compound faucets V2
       </StyledLink>
-      <StyledLink target="_blank" href="#">
-        Twitter
+      <StyledLink
+        target="_blank"
+        href="https://app.uniswap.org/#/add/v2/0x2899a03ffDab5C90BADc5920b4f53B0884EB13cC/0x79C950C7446B234a6Ad53B908fBF342b01c4d446"
+      >
+        USDT-ETH SLP Uniswap-V2
       </StyledLink>
-      <StyledLink target="_blank" href="#">
-        Medium
+      <StyledLink
+        target="_blank"
+        href="https://app.uniswap.org/#/add/v2/ETH/0x07865c6E87B9F70255377e024ace6630C1Eaa37F"
+      >
+        USDC-ETH SLP Uniswap-V2
       </StyledLink>
     </StyledNav>
   )
