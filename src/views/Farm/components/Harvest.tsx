@@ -22,7 +22,9 @@ const Harvest: React.FC<HarvestProps> = ({ pid }) => {
   return (
     <StyledCardWrapper>
       <StyledCardAccent />
+
       <Card>
+        <div>&nbsp;</div>
         <CardContent>
           <StyledCardContentInner>
             <StyledCardHeader>
